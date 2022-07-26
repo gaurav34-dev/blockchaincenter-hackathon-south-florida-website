@@ -19,7 +19,7 @@ export default function Home() {
           <Link href="/"><a><img src="/logo.png"></img></a></Link>
           </div>
           <div className={styles.NavLink}>
-          <Link href="/track"><a >Tracks</a></Link>
+          <Link href="/track"><a >Tracks1</a></Link>
           <Link href="/schedule"><a>Schedule</a></Link>
           <Link href="/prizes"><a>Prizes</a></Link>
           </div>
