@@ -424,6 +424,7 @@ flex-direction: row;
 justify-content: space-around;
 padding: 0px;
 gap: 14px;
+flex-wrap: wrap;
 }
 
 
