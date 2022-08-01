@@ -419,7 +419,11 @@ gap: 14px;
 
 .sponsors
 {
-  
+  display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 0px;
+gap: 14px;
 }
 
 
