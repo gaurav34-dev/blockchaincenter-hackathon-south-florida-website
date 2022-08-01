@@ -129,6 +129,33 @@ together to build financial projects
 </div>
 
 
+
+<div className={styles.textandsponsors}>
+
+<div className={styles.text}>
+<div className={styles.web3heading}>
+  Partners
+</div>
+<div className={styles.web3para}>
+Making the event possible!
+</div>
+</div>
+
+<div className={styles.sponsors}>
+<div className={styles.photo}><img src="/photo_1.png"></img></div>
+<div className={styles.photo}><img src="/MPCR logo 1.png"></img></div>
+<div className={styles.photo}><img src="/bc-logo 1.png"></img></div>
+<div className={styles.photo}><img src="/image 4.png"></img></div>
+<div className={styles.photo}><img src="/miami_edtech logo 1.png"></img></div>
+<div className={styles.photo}><img src="/BrowardBitcoiners_logo 1.png"></img></div>
+</div>
+
+
+
+
+</div>
+
+
 <div className={styles.schedulepart}>
 <div className={styles.schedulepartinfo}>
   <div className={styles.date}>

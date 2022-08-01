@@ -398,7 +398,33 @@ height: auto;
 }
 /*blockchain gaming end*/
 
+/*textandsponsors section start*/
 
+.textandsponsors{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 14px;
+}
+
+
+.textandsponsors .text{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+}
+
+.sponsors
+{
+  
+}
+
+
+
+/*textandsponsors section end*/
 
 
 
