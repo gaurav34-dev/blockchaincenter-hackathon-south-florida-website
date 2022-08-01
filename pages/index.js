@@ -118,18 +118,6 @@ together to build financial<br></br> projects
 
 </div>
 
-<div className={styles.Schedule}>
-<div className={styles.Scheduleheading} id="schedule">
-  Schedule
-</div>
-
-<div className={styles.Schedulepara}>
-Bring developers, analysts, and designers
-together to build financial projects
-</div>
-
-
-
 <div className={styles.textandsponsors}>
 
 <div className={styles.text}>
@@ -154,6 +142,21 @@ Making the event possible!
 
 
 </div>
+
+
+
+
+
+<div className={styles.Schedule}>
+<div className={styles.Scheduleheading} id="schedule">
+  Schedule
+</div>
+
+<div className={styles.Schedulepara}>
+Bring developers, analysts, and designers
+together to build financial projects
+</div>
+
 
 
 <div className={styles.schedulepart}>
