@@ -406,6 +406,9 @@ height: auto;
   align-items: flex-start;
   padding:0px;
   gap: 14px;
+  position: relative;
+    left: 3%;
+    margin-bottom: 2%;
 }
 
 
@@ -415,6 +418,9 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 gap: 14px;
+position: relative;
+left: 3%;
+margin-bottom: 2%;
 }
 
 .sponsors
@@ -425,6 +431,7 @@ justify-content:start;
 padding: 0px;
 gap: 14px;
 flex-wrap: wrap;
+margin-left: 3%;
 }
 
 
