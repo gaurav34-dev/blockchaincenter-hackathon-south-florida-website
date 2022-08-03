@@ -456,7 +456,7 @@ margin-left: 3%;
 
 }
 
-@media screen (min-width: 600px) and (max-width: 1399px){
+@media screen and (min-width: 600px) and (max-width: 1399px){
   .sponsors{
 display: flex;
 flex-direction: row;
