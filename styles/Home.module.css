@@ -434,6 +434,19 @@ flex-wrap: wrap;
 margin-left: 3%;
 }
 
+@media screen and (max-width: 600px){
+.sponsors{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  gap: 14px
+}
+
+}
+
+
+
 .text .web3heading{
   font-family: Work Sans;
     font-style: normal;
@@ -460,11 +473,27 @@ margin-left: 3%;
   height: auto;
 }
 
+@media screen and (max-width: 600px){
+  .photo img{
+    
+    width:100%;
+    height:auto;
+  }
+  
+  }
+
 .photo
 {
   padding:1%;
 }
 
+@media screen and (max-width: 600px){
+  .photo{
+    
+    padding:0;
+  }
+  
+  }
 /*textandsponsors section end*/
 
 
