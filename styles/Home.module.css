@@ -485,7 +485,7 @@ margin-left: 3%;
   font-weight: 500;
   font-size: 1.125vw;
   color: #484848;
-  padding-left: 37px;
+  padding-left: 1ch;
   text-align: center;
 }
 
@@ -506,6 +506,11 @@ margin-left: 3%;
   }
 }
 
+@media screen and (min-width: 600px) and (max-width: 1300px){
+  .text .web3para{
+   padding:1ch;
+  }
+}
 
 .photo img
 {
