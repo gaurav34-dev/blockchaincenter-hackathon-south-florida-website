@@ -456,7 +456,18 @@ margin-left: 3%;
 
 }
 
+@media screen and (max-width: 1400px){
+  .sponsors{
+display: flex;
+flex-direction: row;
+justify-content:start;
+padding: 0px;
+gap: 14px;
+flex-wrap:nowrap;
+margin-left: 3%;
 
+  }
+}
 
 .text .web3heading{
   font-family: Work Sans;
