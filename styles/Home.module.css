@@ -456,7 +456,7 @@ margin-left: 3%;
 
 }
 
-@media screen and (min-width: 600px) and (max-width: 1399px){
+/*@media screen and (min-width: 600px) and (max-width: 1399px){
   .sponsors{
 display: flex;
 flex-direction: row;
@@ -467,7 +467,24 @@ flex-wrap:wrap;
 margin-left: 3%;
 
   }
+}*/
+
+@media screen and (min-width: 600px){
+  .sponsors{
+     display: grid;
+     grid-template-columns: auto auto auto auto;
+     padding: 1vw;
+     grid-gap:1vw;
+
+  }
+  .photo
+  {background-color: rgba(255, 255, 255, 0.8);
+    padding: 2vw;
+    text-align: center;
+
+  }
 }
+
 
 .text .web3heading{
   font-family: Work Sans;
