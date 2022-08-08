@@ -480,6 +480,12 @@ margin-left: 3%;
   
 }
 
+.photo img{
+  width:200px;
+  height:200px;
+  object-fit: scale-down;
+}
+
 
 .text .web3heading{
   font-family: Work Sans;
