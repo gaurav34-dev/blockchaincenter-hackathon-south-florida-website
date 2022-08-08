@@ -434,7 +434,6 @@ padding: 2%;
   display: flex;
 flex-direction: row;
 justify-content:start;
-padding: 0px;
 gap: 14px;
 flex-wrap: wrap;
 margin-left: 3%;
@@ -456,20 +455,8 @@ margin-left: 3%;
 
 }
 
-/*@media screen and (min-width: 600px) and (max-width: 1399px){
-  .sponsors{
-display: flex;
-flex-direction: row;
-justify-content:start;
-padding: 0px;
-gap: 14px;
-flex-wrap:wrap;
-margin-left: 3%;
 
-  }
-}*/
-
-@media screen and (min-width: 600px){
+@media screen and (min-width: 600px) and (max-width: 1396px){
   .sponsors{
      display: grid;
      grid-template-columns: auto auto auto auto;

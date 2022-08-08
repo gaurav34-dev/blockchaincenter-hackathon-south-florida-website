@@ -156,6 +156,9 @@ Making the event possible!
 Bring developers, analysts, and designers
 together to build financial projects
 </div>
+<div className={styles.Schedulepara}>
+Opening Ceremony on August 20th
+</div>
 
 
 
