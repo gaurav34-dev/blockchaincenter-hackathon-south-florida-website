@@ -84,6 +84,8 @@ flex-grow: 0;
 @media screen and (max-width: 700px) {
   .NavLink a{
     text-align:center;
+    font-size: 2.5vw;
+
   }
 }
 
@@ -102,7 +104,7 @@ background: #FFFFFF;
 @media screen and (max-width: 600px) {
   .SouthFloridaHackathon{
     display:block;
-    margin-top: 30%;
+    margin-top: 20%;
     padding: 0px;
   }
 }
@@ -176,7 +178,7 @@ flex-grow: 0;
 {font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 1.5vw;
+  font-size: 2.5vw;
   color: #484848;
   
   
@@ -186,6 +188,8 @@ flex-grow: 0;
   order: 0;
   flex-grow: 0;
   line-height: 9;
+  margin:0px;
+  padding:0px;
 
 }
 }
@@ -197,12 +201,30 @@ font-weight: 500;
 font-size: 1.5vw;
 color: #F8931F;
 
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+@media screen and (max-width: 600px){
+  .Para .dates
+{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 2.5vw;
+color: #F8931F;
+margin:0px;
+padding:0px;
 
 /* Inside auto layout */
 
 flex: none;
 order: 0;
 flex-grow: 0;
+}
 }
 
 .Heading
@@ -212,6 +234,20 @@ font-style: normal;
 font-weight: 600;
 font-size: 3vw;
 }
+
+@media screen and (max-width: 600px){
+.Heading{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 4vw;
+margin-top:-10%;
+padding: 0px;
+}
+}
+
+
+
 .DescriptionPara
 {
   font-family: 'Work Sans';
@@ -221,6 +257,18 @@ font-size: 1.125vw;
 color: #484848;
 
 }
+
+@media screen and (max-width: 600px){
+  .DescriptionPara
+{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5vw;
+  color: #484848;
+
+}
+  }
 
 .ApplyButton
 {
@@ -241,7 +289,7 @@ color: #FFFFFF;
 @media screen and (max-width: 600px){
 .ApplyButton
 {
-padding: 3% 10%;
+padding: 2% 5%;
 gap: 10px;
 
 background: #F8931F;
@@ -250,7 +298,7 @@ border-radius: 15px;
 font-family: 'Work Sans';
 font-style: normal;
 font-weight: 600;
-font-size: 1.5vw;
+font-size: 2.5vw;
 
 color: #FFFFFF;
 }
@@ -344,6 +392,39 @@ padding-left:6%;
   display:block;
 text-align: center;
 padding:0px;
+margin-top:-20%;
+}
+.oneliner{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.3vw;
+  line-height: 23px;
+  
+  color: #484848;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.web3heading
+{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 4vw;
+
+}
+.web3para
+{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 2.5vw;
+color: #484848;
 }
 }
 /*web3 section end*/
@@ -369,6 +450,7 @@ background: #FFFFFF;
     text-align: center;
     padding-left: 0px;
     display:block;
+    margin-top:30%;
   }
 }
 .blockchaingamingimage img
@@ -394,6 +476,8 @@ height: auto;
     flex: none;
     order: 0;
     flex-grow: 0;
+    margin:0px;
+    padding:0px;
 }
 }
 /*blockchain gaming end*/
@@ -423,10 +507,26 @@ padding: 2%;
   .textandsponsors .text{
     display:block;
     margin:0 auto;
-    text-align: center;
+    padding-top:50%;
     
   }
-  
+  .textandsponsors .text .web3heading{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4vw;
+    text-align: center;
+    padding-left: 1.5%;
+  }
+  .textandsponsors .text .web3para
+{
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5vw;
+  color: #484848;
+  text-align: center;
+}
   }
 
 .sponsors
@@ -447,10 +547,9 @@ margin-left: 3%;
 .sponsors{
   display: block;
   text-align: center;
-  margin-left: 0px;
   flex-wrap:nowrap;
-
-  
+  margin:0px;
+  padding: 0px;
 }
 
 }
@@ -519,10 +618,16 @@ margin-left: 3%;
 @media screen and (max-width: 600px){
   .photo img{
     
-    width:100%;
-    height:auto;
     text-align: center;
+    margin-top:-15%;
+    padding:0px;
+
   }
+  .photo
+{
+  padding:0px;
+  margin:0px;
+}
   
   }
 
@@ -555,8 +660,9 @@ margin-top:200px;
 font-family: 'Work Sans';
 font-style: normal;
 font-weight: 600;
-font-size: 3vw;
+font-size: 4vw;
 margin-left:0px;
+margin-top: -5%;
 text-align: center;
   }
 }
@@ -579,7 +685,7 @@ margin-bottom: 60px;
 font-family: 'Work Sans';
 font-style: normal;
 font-weight: 500;
-font-size: 1.125vw;
+font-size: 2.5vw;
 line-height: 20px;
 color: #484848;
 margin-left: 0px;
@@ -633,6 +739,41 @@ flex-grow: 0;
   gap:5px;
 order: 0;
 flex-grow: 0;
+margin:0px;
+
+}
+
+.date
+{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 4vw;
+line-height: 38px;
+color: #4A4A4A;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.time
+{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 2.5vw;
+line-height: 23px;
+color: #484848;
+}
+
+.duration
+{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 2.5vw;
+line-height: 16px;
+color: #484848;
 
 }
 }
@@ -664,7 +805,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 1.5vw;
 line-height: 23px;
-
 color: #484848;
 }
 
@@ -675,7 +815,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 1.05vw;
 line-height: 16px;
-
 color: #484848;
 
 }
@@ -694,7 +833,7 @@ flex-grow:0;
 .blank input[type="text"]
 {
   
-  padding: 2%;
+padding: 2%;
 width: 63vw;
 height: 10vh;
 
