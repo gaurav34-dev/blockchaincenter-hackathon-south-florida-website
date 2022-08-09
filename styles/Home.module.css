@@ -662,7 +662,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 4vw;
 margin-left:0px;
-margin-top: -5%;
+margin-top: 3%;
 text-align: center;
   }
 }
@@ -862,12 +862,12 @@ flex-grow: 1;
 .blank input[type="text"]
 {padding: 2%;
   width: 70vw;
-  height: 10vh;
+  height: 5vh;
   display: block;
   background: #FFFFFF;
 border: 2px solid #919191;
 border-radius: 8px;
-font-size:1.5vw;
+font-size:2.5vw;
 
 }
 }
