@@ -931,7 +931,27 @@ flex: none;
 order: 1;
 flex-grow: 0;
 }
+@media screen and (max-width: 600px)
+{
+  .contactdetails
+{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 2.5vw;
+line-height: 24px;
+text-align: center;
 
+color: #484848;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+}
 
 
 
