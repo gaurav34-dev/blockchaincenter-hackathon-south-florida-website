@@ -709,7 +709,7 @@ flex-grow: 0;
 @media screen and (max-width: 600px){
 .schedulepart{
 display:block;
-padding:0px 90px;
+padding:30px 90px;
 gap:0px;
 flex:none;
 order:1;
