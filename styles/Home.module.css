@@ -456,20 +456,17 @@ margin-left: 3%;
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 1396px){
+@media screen and (min-width: 600px) and (max-width: 1399px){
   .sponsors{
      display: grid;
      grid-template-columns: auto auto auto auto;
-     padding: 1.5vw;
-     grid-gap:10vh 2vw;
+     grid-gap:10vh 10vw;
 
   }
   
 }
 
 .photo img{
-  width:200px;
-  height:200px;
   object-fit: scale-down;
 }
 
