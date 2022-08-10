@@ -28,7 +28,7 @@ export default function Home() {
 
  <div className={styles.SouthFloridaHackathon}>
           <div className={styles.Description}>
-          <p className={styles.Para}> <span className={styles.palm}>Palm Beach, Florida</span> &nbsp; | &nbsp;<span className={styles.dates}>August 18 - 21</span>
+          <p className={styles.Para}> <span className={styles.palm}>Palm Beach, Florida</span> &nbsp; | &nbsp;<span className={styles.dates}>August 18th- September 18th</span>
           </p>
           <h1 className={styles.Heading}>
         South Florida Hackathon

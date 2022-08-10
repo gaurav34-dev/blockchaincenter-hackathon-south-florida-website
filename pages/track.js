@@ -1,7 +1,7 @@
 import next from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from '../styles/tracks.css';
+import styles from '../styles/Track.module.css';
 import Navbar from '../components/navbar';
 
 const track = () => {
