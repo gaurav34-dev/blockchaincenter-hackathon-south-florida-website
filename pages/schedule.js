@@ -23,7 +23,9 @@ const schedule = () => {
                 Bring developers, analysts, and designers
                 together to build financial projects
             </div>
-
+            <div className={styles.Schedulepara}>
+Opening Ceremony on August 20th
+</div>
 
             <div className={styles.schedulepart}>
                 <div className={styles.schedulepartinfo}>
