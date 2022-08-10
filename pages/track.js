@@ -49,7 +49,7 @@ const track = () => {
                     <img src="/fintechimage.png"></img>
                 </div>
 
-                <div className={styles.web3description}>
+                <div className={styles.web3description1}>
                     <div className={styles.oneliner}>Track 1</div>
                     <div className={styles.web3heading}>
                         Fintech & Analysis
