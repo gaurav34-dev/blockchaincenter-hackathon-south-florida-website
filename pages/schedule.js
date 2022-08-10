@@ -62,18 +62,7 @@ Opening Ceremony on August 20th
                 </div>
             </div>
 
-        </div><div className={styles.prizes}>
-
-                <div className={styles.Scheduleheading} id="prices">
-                    Prizes
-                </div>
-
-                <div className={styles.Schedulepara}>
-                    Bring developers, analysts, and designers
-                    together to build financial projects
-                </div>
-
-            </div></>
+        </div></>
 
     );
     }
