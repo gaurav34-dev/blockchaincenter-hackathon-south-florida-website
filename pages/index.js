@@ -135,6 +135,8 @@ Making the event possible!
 <div className={styles.photo}><img src="/image 4.png"></img></div>
 <div className={styles.photo}><img src="/miami_edtech logo 1.png"></img></div>
 <div className={styles.photo}><img src="/BrowardBitcoiners_logo 1.png"></img></div>
+<div className={styles.photo}><img src="/CSF_Logo.png"></img></div>
+
 </div>
 
 
