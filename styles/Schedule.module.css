@@ -1,0 +1,228 @@
+/*Schedule section start*/
+
+.Scheduleheading
+{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 3vw;
+margin-left:90px;
+margin-top:200px;
+}
+
+@media screen and (max-width: 600px){
+  .Scheduleheading{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 4vw;
+margin-left:0px;
+text-align: center;
+  }
+}
+
+
+.Schedulepara
+{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 1.125vw;
+line-height: 20px;
+color: #484848;
+margin-left: 90px;
+margin-bottom: 60px;
+}
+
+@media screen and (max-width: 600px){
+  .Schedulepara{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 2.5vw;
+line-height: 20px;
+color: #484848;
+margin-left: 0px;
+margin-bottom: 0px;
+text-align: center;
+  }
+}
+
+.schedulepart
+{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 30px 90px;
+gap: 91px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+@media screen and (max-width: 600px){
+.schedulepart{
+display:block;
+padding:70px 90px;
+gap:0px;
+flex:none;
+order:1;
+flex-grow:0;
+text-align: center;
+}
+}
+
+.schedulepartinfo
+{display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  flex: none;
+  gap:5px;
+order: 0;
+flex-grow: 0;
+
+}
+
+@media screen and (max-width: 600px){
+  .schedulepartinfo
+{display: block;
+  text-align: center;
+  padding: 0px;
+  flex: none;
+  gap:5px;
+order: 0;
+flex-grow: 0;
+margin:0px;
+
+}
+
+}
+
+.date
+{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 2.25vw;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #4A4A4A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+@media screen and (max-width: 600px){
+.date
+{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 4vw;
+line-height: 38px;
+color: #4A4A4A;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+}
+.time
+{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 1.5vw;
+line-height: 23px;
+color: #484848;
+}
+
+@media screen and (max-width: 600px){
+  .time
+{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 2.5vw;
+line-height: 23px;
+color: #484848;
+}
+}
+
+
+.duration
+{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 1.05vw;
+line-height: 16px;
+color: #484848;
+
+}
+
+@media screen and (max-width: 600px){
+  .duration
+{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 2.5vw;
+line-height: 16px;
+color: #484848;
+
+}
+}
+
+@media screen and (max-width: 600px){
+.blank{
+text-align: center;
+display:block;
+gap:0px;
+flex:none;
+order:1;
+flex-grow:0;
+}
+}
+
+.blank input[type="text"]
+{
+  
+padding: 2%;
+width: 63vw;
+height: 10vh;
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+background: #FFFFFF;
+border: 2px solid #919191;
+border-radius: 8px;
+font-size:1.5vw;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+@media screen and (max-width: 600px){
+.blank input[type="text"]
+{padding: 2%;
+  width: 70vw;
+  height: 5vh;
+  display: block;
+  background: #FFFFFF;
+border: 2px solid #919191;
+border-radius: 8px;
+font-size:2.5vw;
+
+}
+}
+/*Schedule end*/

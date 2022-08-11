@@ -1,0 +1,47 @@
+.Scheduleheading
+{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 3vw;
+margin-left:90px;
+margin-top:200px;
+}
+
+@media screen and (max-width: 600px){
+  .Scheduleheading{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 4vw;
+margin-left:0px;
+text-align: center;
+  }
+}
+
+
+.Schedulepara
+{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 1.125vw;
+line-height: 20px;
+color: #484848;
+margin-left: 90px;
+margin-bottom: 60px;
+}
+
+@media screen and (max-width: 600px){
+  .Schedulepara{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 2.5vw;
+line-height: 20px;
+color: #484848;
+margin-left: 0px;
+margin-bottom: 0px;
+text-align: center;
+  }
+}
