@@ -39,7 +39,7 @@ export default function Home() {
         South Florida's web3 tech ecosystem. We are making this possible <br></br>
         through a South Florida centric conference and hackathon.
         </p>
-        <Link href="https://qe3joxkgbna.typeform.com/to/IsQAqTeM" target="_blank"><button className={styles.ApplyButton}>Apply to Hack</button></Link>
+        <Link href="https://qe3joxkgbna.typeform.com/to/IsQAqTeM"><a target="_blank"><button className={styles.ApplyButton}>Apply to Hack</button></a></Link>
        </div>
 
         <div className={styles.PhotoHackathon}>
