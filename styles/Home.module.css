@@ -112,6 +112,7 @@ background: #FFFFFF;
 {
   height:787px;
   max-width:787px;
+  width:100%;
 flex: none;
 order: 1;
 flex-grow: 0;
