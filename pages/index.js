@@ -131,16 +131,16 @@ Making the event possible!
 <div className={styles.sponsors}>
 <div className={styles.photo}><img src="/photo_1.png"></img></div>
 <div className={styles.photo}><img src="/MPCR logo 1.png"></img></div>
-<div className={styles.photo}><img src="/bc-logo 1.png"></img></div>
-<div className={styles.photo}><img src="/image 4.png"></img></div>
+<div className={styles.photo}><img src="/CSF_Logo 1.png"></img></div>
+</div>
+<div className={styles.sponsorsgrid}>
 <div className={styles.photo}><img src="/miami_edtech logo 1.png"></img></div>
 <div className={styles.photo}><img src="/BrowardBitcoiners_logo 1.png"></img></div>
-<div className={styles.photo}><img src="/CSF_Logo.png"></img></div>
-
+<div className={styles.photo}><img src="/bc-logo 1.png"></img></div>
+<div className={styles.photo}><img src="/image 4.png"></img></div>
+<div className={styles.photo}><img src="/zenblocks.png"></img></div>
+<div className={styles.photo}><img src="/BitDevs.png"></img></div>
 </div>
-
-
-
 
 </div>
 
