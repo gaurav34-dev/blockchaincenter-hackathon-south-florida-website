@@ -139,7 +139,7 @@ Making the event possible!
 <div className={styles.photo}><img src="/bc-logo 1.png"></img></div>
 <div className={styles.photo}><img src="/image 4.png"></img></div>
 <div className={styles.photo}><img src="/zenblocks.png"></img></div>
-<div className={styles.photo}><img src="/BitDevs.png"></img></div>
+<div className={styles.photo}><img src="/My project.png"></img></div>
 </div>
 
 </div>
