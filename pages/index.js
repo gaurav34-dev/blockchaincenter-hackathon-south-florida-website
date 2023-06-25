@@ -31,7 +31,7 @@ export default function Home() {
           <p className={styles.Para}> <span className={styles.palm}>Palm Beach, Florida</span> &nbsp; | &nbsp;<span className={styles.dates}>August 18th- September 18th</span>
           </p>
           <h1 className={styles.Heading}>
-        South Florida Hackathon
+        South Florida Hackatho
           </h1>
 
         <p className={styles.DescriptionPara}> 
